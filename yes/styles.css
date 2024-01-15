@@ -1,0 +1,16 @@
+body{
+    background:black;
+
+}
+
+h1{
+    padding:15px;
+    color:rgb(235, 146, 161);
+    text-align:center;
+}
+
+
+canvas {
+cursor:crosshair;
+display:block;
+}
