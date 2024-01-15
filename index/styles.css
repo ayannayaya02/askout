@@ -9,21 +9,31 @@ h1,h2 {
 }
 
 button{
+    display: inline flex;
+    position:relative;
+    justify-content:center;
     text-decoration:none;
     display:fixed;
 }
 
 .no-btn{
-    position: fixed absolute;
+    position:inline flex;
     padding: 10px;
-margin: 5px;
+margin:10px;
 border-radius: 50px;
 background-color:red;
 }
 
+.no-btn:hover{
+    position: absolute;
+    background-color:black;
+    color:black;
+}
 .yes-btn{
+    display:inline flex;
+justify-content:center;
 padding: 10px;
-margin: 5px;
+margin: 50px;
 border-radius: 50px;
 background-color:pink;
 }
